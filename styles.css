@@ -1,0 +1,31 @@
+body {
+  background-color: #111724;
+  font-family: Tahoma, sans-serif;
+  color: white;
+}
+
+.card {
+  background-color: #141b29;
+  border-radius: 20px;
+  width: 40%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+a {
+  color: white;
+  background-color: #141b29;
+  border-radius: 10%;
+  border-color: white;
+  border: 0.5px solid;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
