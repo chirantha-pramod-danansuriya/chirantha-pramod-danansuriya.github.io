@@ -40,4 +40,6 @@ ul {
   position: fixed;
   right: 0px;
   bottom: 0px;
+  border: none;
+  background-color: #111724;
 }
