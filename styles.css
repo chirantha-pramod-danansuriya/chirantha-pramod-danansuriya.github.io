@@ -36,3 +36,8 @@ ul {
   list-style-type: none;
 }
 
+#go-up {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
