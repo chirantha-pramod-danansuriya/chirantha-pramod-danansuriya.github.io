@@ -97,7 +97,6 @@ section {
   }
 
   nav {
-  grid-column-end: span 1;
+    grid-column-end: span 1;
   }
-
 }
