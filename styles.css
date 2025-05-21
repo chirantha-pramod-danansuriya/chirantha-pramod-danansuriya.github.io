@@ -33,22 +33,26 @@ ul {
 }
 
 header {
-  margin-bottom: 3em;
-  display: flex;
-  flex-flow: row wrap;
-  column-gap: 2rem;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
 }
 
 .profile-image {
   border-radius: 50%;
   border: white;
   border-style: solid;
+  width: 240px;
+  height: 240px;
 }
 
 .title {
-  margin-bottom: 2em;
-  align-self: center;
+  width: 1fr;
+}
+
+nav {
+  grid-column-start: 1;
+  grid-column-end: span 2;
 }
 
 a {
@@ -63,4 +67,37 @@ a {
 
 section {
   margin-bottom: 3em;
+}
+
+@media (max-width: 64rem) {
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 48rem) {
+  html {
+    font-size: 62.5%;
+  }
+
+  header {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  nav {
+  grid-column-end: span 1;
+  }
+
 }
