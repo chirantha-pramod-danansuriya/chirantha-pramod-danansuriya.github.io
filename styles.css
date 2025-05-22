@@ -86,9 +86,9 @@ section {
 #contact-submit {
   grid-column-start: 1;
   grid-column-end: span 2;
-  background-color:#3EB489;
+  background-color: #3eb489;
   border: none;
-  color: #F0F0F0;
+  color: #f0f0f0;
   height: 2rem;
   font-size: large;
 }
