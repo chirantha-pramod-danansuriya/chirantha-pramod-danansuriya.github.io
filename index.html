@@ -10,6 +10,7 @@
     <title>Chirantha Danansuriya</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" sizes="16x16" href="images/favicon.ico" />
+    <script src="main.js" defer></script>
   </head>
 
   <body>
@@ -81,8 +82,8 @@
       <h2>Contact</h2>
       <form
         action="https://formspree.io/f/mjkwdpol"
-        method="post"
-        class="contact-form"
+        id="contact-form"
+        method="POST"
       >
         <input id="contact-name" name="Name" type="text" placeholder="Name" />
         <input
@@ -99,6 +100,7 @@
         ></textarea>
         <button id="contact-submit">Submit</button>
       </form>
+      <span id="contact-form-status"></span>
     </section>
     <a href="#top" id="go-up"><img src="images/up.png" alt="go up" /></a>
     <footer>
