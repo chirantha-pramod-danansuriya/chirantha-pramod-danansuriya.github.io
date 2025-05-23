@@ -90,8 +90,9 @@ section {
   background-color: #111724;
   border: 1px solid white;
   color: #f0f0f0;
-  height: 2rem;
   font-size: large;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 64rem) {
