@@ -1,5 +1,5 @@
 body {
-  background-color: #111724;
+  background-color: #131a2c;
   font-family: Tahoma, sans-serif;
   color: white;
   margin-left: 50px;
@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-  background-color: #141b29;
+  background-color: #111724;
   border-radius: 20px;
 }
 
@@ -86,8 +86,8 @@ section {
 #contact-submit {
   grid-column-start: 1;
   grid-column-end: span 2;
-  background-color: #10583e;
-  border: none;
+  background-color: #111724;
+  border: 1px solid white;
   color: #f0f0f0;
   height: 2rem;
   font-size: large;
