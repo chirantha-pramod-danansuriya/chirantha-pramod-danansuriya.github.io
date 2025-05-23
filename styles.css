@@ -16,6 +16,7 @@ body {
 .card {
   background-color: #111724;
   border-radius: 20px;
+  padding-left: 1.5rem;
 }
 
 ul {
@@ -57,7 +58,7 @@ nav {
 
 a {
   color: white;
-  background-color: #141b29;
+  background-color: #111724;
   border-radius: 10%;
   border: 0.5px solid white;
   padding: 0.5em;
