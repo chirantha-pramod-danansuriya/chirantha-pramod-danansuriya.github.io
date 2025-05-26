@@ -49,6 +49,7 @@ header {
 
 .title {
   width: 1fr;
+  align-self: center;
 }
 
 nav {
