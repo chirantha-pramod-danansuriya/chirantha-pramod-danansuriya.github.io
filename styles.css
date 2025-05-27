@@ -96,6 +96,10 @@ section {
   padding-bottom: 1rem;
 }
 
+#contact-submit:hover {
+  background-color: #1e2a44;
+}
+
 #contact-form-status {
   text-align: center;
 }
